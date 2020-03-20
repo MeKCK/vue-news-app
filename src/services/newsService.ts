@@ -1,6 +1,12 @@
 import { ArticleType, NewsArticle } from '../types';
 
+const url = '/data/articles.json';
+
 class NewsService {
+  [x: string]: any;
+  getFavorites() {
+    throw new Error("Method not implemented.");
+  }
 
   getArticlesByType(articleType: ArticleType): Promise<NewsArticle[]> {
 

@@ -1,3 +1,4 @@
+import MyFavorites from '@/views/MyFavorites.vue';
 export interface NewsArticle {
     id: number;
     title: string;
@@ -10,7 +11,9 @@ export interface NewsArticle {
   
   export enum ArticleType {
     TopStory = 'TOP_STORY',
-    DevelopingStories = 'DEVELOPING_STORIES'
+    DevelopingStories = 'DEVELOPING_STORIES',
+    
+   
   }
 
   
